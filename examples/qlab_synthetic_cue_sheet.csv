@@ -1,0 +1,5 @@
+cue_id,group,cue_name,trigger,timecode_hh_mm_ss_ff,expected_output,fallback,verification_status
+PRE-01,PRESHOW,House music start,manual,00:00:00:00,stereo playback,manual audio operator,NOT_TESTED
+SHOW-01,SHOW,Opening sequence,LTC,01:00:00:00,audio plus lighting cue,manual GO,NOT_TESTED
+SHOW-02,SHOW,Transition A,LTC,01:02:30:00,playback and cue transition,manual GO,NOT_TESTED
+POST-01,POSTSHOW,House music return,manual,00:00:00:00,stereo playback,manual audio operator,NOT_TESTED
